@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ifspsaocarlos.sdm.sdmmessenger" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sdm_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.CriarPerfilActivity"
+            android:label="@string/criarPerfil_title" >
+        </activity>
+        <activity
+            android:name=".view.RecuperarPerfilActivity"
+            android:label="@string/recuperarPerfil_title" >
+        </activity>
+        <activity
+            android:name=".view.ConversasActivity"
+            android:label="@string/conversas_title" >
+        </activity>
+        <activity
+            android:name=".view.ContatosActivity"
+            android:label="@string/contatos_title" >
+        </activity>
+        <activity
+            android:name=".view.ChatActivity"
+            android:label="@string/chat_title" >
+        </activity>
+
+        <service
+            android:name=".service.BuscaMensagemService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="BUSCAR_NOVA_MENSAGEM_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

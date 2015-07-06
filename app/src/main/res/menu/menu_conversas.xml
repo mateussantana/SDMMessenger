@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.ifspsaocarlos.sdm.sdmmessenger.view.ConversasActivity">
+
+    <item
+        android:id="@+id/action_novaMensagem"
+        android:title="@string/conversas_btnNovaMensagem"
+        android:icon="@drawable/ic_comment_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_contatos"
+        android:title="@string/conversas_btnContatos"
+        android:icon="@drawable/ic_group_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_meuPerfil"
+        android:title="@string/conversas_btnMeuPerfil"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

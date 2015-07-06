@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.ifspsaocarlos.sdm.sdmmessenger.view.RecuperarPerfilActivity">
+
+    <item
+        android:id="@+id/action_recuperarPerfil"
+        android:title="@string/recuperarPerfil_btnAvancar"
+        android:icon="@drawable/ic_done_white_24dp"
+        app:showAsAction="always|withText"
+        />
+
+</menu>

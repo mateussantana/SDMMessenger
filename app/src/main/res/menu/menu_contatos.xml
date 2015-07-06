@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.ifspsaocarlos.sdm.sdmmessenger.view.ContatosActivity">
+
+    <item
+        android:id="@+id/action_atualizarContatos"
+        android:title="@string/contatos_btnAtualizar"
+        android:icon="@drawable/ic_loop_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>

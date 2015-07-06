@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InicioActivity">
+
+    <item
+        android:id="@+id/action_cadastrarPerfil"
+        android:title="@string/criarPerfil_btnCadastrar"
+        android:icon="@drawable/ic_done_white_24dp"
+        app:showAsAction="always|withText"
+        />
+
+</menu>

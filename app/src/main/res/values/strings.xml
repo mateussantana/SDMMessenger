@@ -1,0 +1,45 @@
+<resources>
+    <!-- Application -->
+    <string name="app_name">SDMessenger</string>
+    <string name="app_version">v0.1</string>
+    <integer name="app_serviceBuscaMensagem_sleep">5000</integer>
+    <integer name="app_serviceBuscaContato_sleep">10000</integer>
+
+    <!-- Web Service -->
+    <string name="app_ws_urlContato">http://www.nobile.pro.br/sdm/mensageiro/contato</string>
+    <string name="app_ws_urlMensagem">http://www.nobile.pro.br/sdm/mensageiro/mensagem</string>
+    <string name="app_ws_contatoPrefixo">SDMessenger@</string>
+    <string name="app_ws_mensagemPrefixo">SDMessenger@</string>
+
+    <!-- Criar Perfil Activity -->
+    <string name="criarPerfil_title">Criar Novo Perfil</string>
+    <string name="criarPerfil_tvBoasVindas">Bem-vindo ao SDMessenger</string>
+    <string name="criarPerfil_tvNovoUsuario">Essa é a primeira vez que você usa o SDMessenger. Para começar, crie um perfil para trocar mensagens com seus amigos.</string>
+    <string name="criarPerfil_etNome_hint">Nome completo</string>
+    <string name="criarPerfil_etApelido_hint">Apelido ou nome breve</string>
+    <string name="criarPerfil_tvPossuiPerfil">Já possui um perfil?\nClique aqui para usar um perfil existente.</string>
+    <string name="criarPerfil_btnCadastrar">Avançar</string>
+
+    <!-- Recuperar Perfil Activity -->
+    <string name="recuperarPerfil_title">Recuperar Perfil</string>
+    <string name="recuperarPerfil_btnAvancar">Avançar</string>
+    <string name="recuperarPerfil_tvTitle">Recuperar Perfil Existente</string>
+    <string name="recuperarPerfil_tvDescricao">Já possui um perfil no SDMessenger? Insira seu ID no campo e clique em avançar.</string>
+    <string name="recuperarPerfil_etId_hint">ID</string>
+
+    <!-- Conversas Activity -->
+    <string name="conversas_title">Minhas Conversas</string>
+    <string name="conversas_btnNovaMensagem">Iniciar nova conversa</string>
+    <string name="conversas_btnContatos">Meus contatos</string>
+    <string name="conversas_btnMeuPerfil">Apagar meu perfil</string>
+    <string name="conversas_tvConversas">Nenhuma conversa para exibir</string>
+
+    <!-- Contatos Activity -->
+    <string name="contatos_title">Meus Contatos</string>
+    <string name="contatos_btnAtualizar">Atualizar lista de contatos</string>
+
+    <!-- Chat Activity -->
+    <string name="chat_title">Chat Activity</string>
+    <string name="chat_etMensagem_hint">Digite aqui sua mensagem...</string>
+
+</resources>
